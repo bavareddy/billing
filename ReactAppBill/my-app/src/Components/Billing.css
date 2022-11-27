@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    padding: 10px;
+}
+.up-line{
+
+
+}
+
+.border{
+   
+    border-block: 1px solid black;
+    
+}
+.flex-r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+
+}
+.c-1{
+    background-color: #0defff;
+    grid-column: span 2;
+
+}
+.Account>h5{
+    background-color: #0defff;
+    border: 2px solid rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.c-3{
+    border: 2px solid rgb(43, 41, 41);
+}
+.c-4{
+    border: 2px solid rgb(43, 41, 41);
+}
+.c-5{
+    border: 2px solid rgb(43, 41, 41);
+    grid-column: span 2;
+}
+.c-6{
+    border: 2px solid rgb(43, 41, 41);
+}
+.c-7{
+    border: 2px solid rgb(43, 41, 41);
+}
+.c-8{
+    border: 2px solid rgb(43, 41, 41);
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+.c-9{
+    border: 2px solid rgb(43, 41, 41);
+    grid-column: span 2;
+   
+}
+.c-10{
+    border: 2px solid rgb(43, 41, 41);
+    grid-column: span 2;
+   
+}
+.grid-parent{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:5px;
+    border: 2px solid red;
+}
+.grid{
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+img{
+    width: 90px;
+}
